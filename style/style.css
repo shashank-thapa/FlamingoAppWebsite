@@ -1,0 +1,318 @@
+body{
+    margin: 0px;
+    height: 100vh;
+}
+
+nav{
+    list-style: none;
+    overflow: hidden;
+    top:0;
+    padding: 0% 5% 0% 5%;
+    background-color: white;
+}
+
+nav h1{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    pointer-events: none;
+    margin-top:2%;
+    color: #222222;
+}
+
+nav a{
+    float: right;
+    color: black;
+    padding:2% 0% 2% 2%;
+    text-decoration: none;
+    font-size: 1.05em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #e5c1bb;
+    transition: 0.5s;
+}
+
+nav a.active{
+    color: #222222;
+}
+
+.banner{
+    height: 70%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.info{
+    width: 50%;
+    display: inline-block;
+    padding-left: 5%;
+    color: #222222;
+    padding-top: 10%;
+}
+
+#header{
+    pointer-events: none;
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+#subtext{
+    pointer-events: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding-top: 1%;
+}
+
+button{
+    margin: 0.6%;
+}
+#learnbtn{
+    color: #222222;
+    padding: 2% 4% 2% 4%;
+    background-color: white;
+    cursor: pointer;
+    border: 0.5px solid #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:1em;
+    border-radius: 20px;
+    outline: none;
+}
+
+#learnbtn:hover{
+    border: 0.5px solid #e5c1bb;
+    color:#e5c1bb;
+    transition: 0.5s;
+}
+
+#explorebtn{
+    color: white;
+    cursor: pointer;
+    background-color: #e5c1bb;
+    font-weight: bold;
+    font-size:1em;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #e5c1bb;
+    padding: 2% 4% 2% 4%;
+    border-radius: 20px;
+    outline: none;
+}
+
+#explorebtn:hover{
+    border: 1px solid #222222;
+    background-color: #222222;
+    transition: 0.5s;
+}
+
+.image1{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+
+.image1 img{
+    padding-right: 7%;
+    margin-top: 0%;
+    width: 80%;
+    height: auto;
+}
+
+.body1{
+    text-align: center;
+    overflow: visible;
+    background-color: #222222;
+    padding-bottom: 10%;
+}
+
+
+.image2{
+    display: inline;
+    text-align: center;
+    padding:0;
+}
+
+.image2 img{
+    margin-top: -5%;
+    width: 15%;
+    height: auto;
+}
+
+.body2{
+    text-align: center;
+    overflow: visible;
+    background-color: #222222;
+    padding-bottom: 5%;
+}
+
+.tabs h1{
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.tabs h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    padding-top: 1%;
+}
+
+.tabs{
+    margin-top: -3%;
+    width: 60%;
+    display:inline-block;
+}
+
+.tab1{
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5%;
+    width: 20%;
+    height: 30vh;
+    vertical-align: middle;
+    margin-right: 5%;
+    pointer-events: none;
+    color: #222222;
+    background-color:white;
+}
+
+.tab2{
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5%;
+    pointer-events: none;
+    height: 30vh;
+    width: 20%;
+    color: #222222;
+    background-color:white;
+}
+
+.tab3{
+    float: right;
+    text-align: center;
+    height: 30vh;
+    pointer-events: none;
+    border-radius: 15px;
+    padding: 5%;
+    color: #222222;
+    background-color:white;
+    width: 20%;
+}
+
+.tabimg1{
+    width: 75%;
+    text-align: center;
+    height: auto;
+}
+
+.tabimg1 img{
+    width: 100%;
+    height: auto;
+}
+
+.tabimg2{
+    width: 75%;
+    height: auto;
+    text-align: center;
+}
+
+.tabimg2 img{
+    width: 100%;
+    height: auto;
+}
+
+.tabimg3{
+    width: 75%;
+    text-align: center;
+    height: auto;
+}
+
+.tabimg3 img{
+    width: 100%;
+    height: auto;
+}
+
+.features{
+    text-align: center;
+}
+
+.features h1{
+    margin-top:3%;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: -3%;
+}
+
+.features h2{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: #222222;
+    padding-top: 1%;
+}
+
+.feature1{
+    display: table;
+    margin: 5%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.feature1 .info{
+    text-align: left;
+    display: table-cell;
+    width: 50%;
+}
+
+.feature1 .image{
+    display: table-cell;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.feature1 .image img{
+    width: 100%;
+    height: auto;
+}
+
+.body2 .download h1{
+    margin-top:3%;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.body2 button{
+    color: #222222;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    width: 15%;
+    height: 15%;
+    font-size:1em;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #e5c1bb;
+    padding: 1.5% 4% 1.5% 4%;
+    border-radius: 30px;
+    outline: none;
+}
+
+.body2 button:hover{
+    background-color: #e5c1bb;
+    transition: 0.5s;
+    color: white;
+}
